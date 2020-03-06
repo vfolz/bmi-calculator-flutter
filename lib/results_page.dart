@@ -44,7 +44,7 @@ class ResultsPage extends StatelessWidget {
                       style: kBMITextStyle,
                     ),
                     Text(
-                      'Your BMI result is normal',
+                      interpretation,
                       style: kBodyTextStyle,
                       textAlign: TextAlign.center,
                     )
